@@ -1,0 +1,19 @@
+[project]
+name = "ia-2026-autumn"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Keendaj", email = "dimashevtsov05@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "numpy>=2.5.3",
+]
+
+[project.scripts]
+ia-2026-autumn = "ia_2026_autumn:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
